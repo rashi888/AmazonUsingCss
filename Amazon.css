@@ -1,0 +1,846 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#bg{
+     width: 100%;
+    height: 400%;
+    background-color: rgb(18, 18, 26);
+}
+#nav{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    
+}
+#left{
+    display: flex;
+    align-items: center;
+} 
+#left a{
+   
+    margin-left: 45px;
+    margin-right: -5px;
+}
+#right{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+#right a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#right i{
+    font-size: 20px;
+    color: white;
+}
+#right #search{
+    position: absolute;
+   margin-left: 65px;
+   font-size: 18px;
+   
+}
+#right input{
+    background-color: transparent;
+    font-family: "open sans";
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.line{
+    margin-left: 198px;
+    margin-top: 26px;
+    width: 45px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+#left>img{
+     color: white;
+     margin-right: -25px;
+     margin-top: 13px;
+     margin-left: 30px;
+     width: 150px;
+     height: 50px;
+}
+#nav a{
+    font-weight:500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#rec1{
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_Pagalpanti/3e6e1d36-b52b-429e-bb51-322b97eb4da9._UR3000,600_SX3000_FMwebp_.jpg);
+    width: 100%;
+    height: 250px   
+}
+#rec1 i{
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#bg h3{
+    padding-left: 60px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-weight: 700;
+
+}
+#card{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    
+}
+#card1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://wallpapercave.com/wp/wp6848226.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+   
+}
+#card i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#card0 i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#card1:hover{
+        transform: scale(1.33);
+        cursor: pointer;
+        z-index: 990;
+}
+
+#card2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://images.cinemaexpress.com/uploads/user/imagelibrary/2020/5/1/original/3_Idiots.PNG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#card2:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#card3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://imagingcinema.files.wordpress.com/2010/04/chak-de-india-poster.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+#card3:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#card4{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://www.bollywoodnewscast.com/wp-content/uploads/2020/06/Gulabo-Sitabo-Movie-Poster-1024x664.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#card4:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+
+#card0{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    
+}
+#card5{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://www.boxofficemovies.in/now/wp-content/uploads/Horizontal-poster-of-Tiger-Zinda-Hai.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+#card5:hover{
+        transform: scale(1.33);
+        cursor: pointer;
+        z-index: 990;
+}
+#card6{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://trailerbabu.com/wp-content/uploads/2019/12/sab-kushal-mangal-movie-trailer-poster-horizontal-movie-release-2020-1024x538.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#card6:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#card7{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://c8.alamy.com/comp/F762X4/indian-bollywood-hindi-film-movie-poster-of-bol-bachchan-india-F762X4.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+   
+}
+#card7:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#card8{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/66/5e/6f/665e6f71ee7f5c8296709c91ac65682e.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#card8:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#pic{
+   display: flex;
+}
+
+#pic1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://stat1.bollywoodhungama.in/wp-content/uploads/2018/07/Lukka-Chupi-21-306x393.jpg);
+    background-position: left;
+    background-size: cover; 
+    position: relative;
+}
+#over1 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#pic2{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://cdn.sharechat.com/myfavouriteheroheroine_e79acd63-8d53-412c-8dd0-7f3ff8fedc31-6db53d76-7ee8-499f-b72d-5759b295e7db_cmprsd_40.jpg);
+    background-position: left;
+    background-size: cover; 
+}
+#over2 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}#pic3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://i.dailymail.co.uk/i/pix/2010/02/04/article-0-07495B13000005DC-900_468x329.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+#over3 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#pic4{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://so6.filmy.today/albums/Tollywood/2019/Feb/13/Hero_Heroine_Telugu_Movie_Teaser_Launch_Photos/profile_36923290d98ce5f0a0d42a29b6e10b15.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+#over4 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#pic5{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://lh3.googleusercontent.com/proxy/5MNpv-SrUtW0SJBg4g7H1ziE3Rj7eMgcWY7IBtquvKh69XQA2BDuw9APTyvFnb5OrAIyJ_Q_oUvKP6WRBnj1fsRYmyH8u7z-f6-HRQtz9GTKx_nDO-NxXMSajfRVt4mjpI1bNk3FdDVzaEU-yRlPa0nJ0EQ5gg6LtPhZFmyvZMFLzpyg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+#over5 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#pic6{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://qph.fs.quoracdn.net/main-qimg-492b93d2ec1a5aad7dd24b4f2506810f.webp);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+#over6 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#pic7{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(data:image/jpeg;base64,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);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+#over7 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#pic8{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzZpyCr_QtKdUeGT9tXn21fwnccpZtYUKRjQ&usqp=CAU);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+#over8 h3{
+    position: absolute;
+    color:white;
+    font-weight: 700;
+    padding-top: 110px;
+}
+#reg{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#reg i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#reg1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://entertainmentblog.paytm.com/wp-content/uploads/2019/03/kalank-Horizontal-720x360.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+#reg1:hover{
+        transform: scale(1.33);
+        cursor: pointer;
+        z-index: 990;
+}
+#reg2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://media.santabanta.com/newsite/cinemascope/feed/mubarkan-poster.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+#reg2:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#reg3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/3e/13/fd/3e13fd33ae90ad4236f1c8e6ff10128e.jpg);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+   
+}
+#reg3:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#reg4{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/6f/ef/c1/6fefc1158d98f87485af290794098cab.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#reg4:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#leg{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#leg i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#leg1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/66/24/96/6624960f0062bd8b8845037c6776277c.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+#leg1:hover{
+        transform: scale(1.33);
+        cursor: pointer;
+        z-index: 990;
+}
+#leg2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://i.pinimg.com/originals/3c/f4/cf/3cf4cf74674ede94488ee71d7ae04ade.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+#leg2:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#leg3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51BANINoAxL._AC_.jpg);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+   
+}
+#leg3:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#leg4{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://cdn.collider.com/wp-content/uploads/2010/02/clash-of-the-titans-movie-poster-3d-3.jpg);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+#leg4:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#jeg{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#jeg i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#jeg1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2018/08/21/sye-raa-narasimha-reddy-horizontal-poster-.jpg?fit=960%2C452&quality=90&zoom=1&ssl=1);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+#jeg1:hover{
+        transform: scale(1.33);
+        cursor: pointer;
+        z-index: 990;
+}
+#jeg2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://www.telegraph.co.uk/content/dam/films/2017/06/29/Suite-Francaise-UK-Quad-Poster-1024x768_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg?imwidth=480);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+#jeg2:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#jeg3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://www.fabworldtoday.com/wp-content/uploads/2019/02/Avatar.jpeg);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+   
+}
+#jeg3:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#jeg4{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdp8bUIMA666hSiJSzv_AYsfRbFKNoEdtQxQ&usqp=CAU);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+#jeg4:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+
+#teg{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#teg1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 400px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_WakaalatFRomHomeComingSoon/304af3f3-819f-4ef9-ab70-18127a2ae63f._UR920,400_SX1840_FMwebp_.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+
+#teg2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 400px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_ComicstaanTamilComingSoon/950feefd-9322-4e60-9750-4785c07f8f96._UR920,400_SX1840_FMwebp_.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+#teg3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 400px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_UtopiaComingSoonV2/5e19d108-a475-44bf-bd14-ba898dd5e8a5._UR920,400_SX1840_FMwebp_.jpg);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+   
+}
+
+#zeg{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#zeg i{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+#zeg1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://images.freekaamaal.com/post_images/1588935051.png);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+#zeg1:hover{
+        transform: scale(1.33);
+        cursor: pointer;
+        z-index: 990;
+}
+#zeg2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px; 
+    background-image: url(https://miro.medium.com/max/600/1*8-PwjPdrErznhfeROzyxQg.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#zeg2:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#zeg3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://vidooly.com/blog/wp-content/uploads/2019/05/107450-hfolguuunf-1544092946.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+#zeg3:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#zeg4{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://i.ytimg.com/vi/1LklnVs9A3U/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#zeg4:hover{
+    transform: scale(1.33);
+    cursor: pointer;
+    z-index: 990;
+}
+#neg{
+    display: flex;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#neg1{
+    margin-left: 60px;
+    margin-top: 12px;
+    width: 400px;
+    height: 130px;
+    border-radius: 5px;
+    background-image: url(https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2015/07/best-cartoons-for-learning-english3.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#neg2{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 400px;
+    height: 130px;
+    border-radius: 5px; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNfGPsy3byUwIeu9Fn-aAKzZKRH_NHgL-dNw&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#neg3{
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 400px;
+    height: 130px;
+    border-radius: 5px;
+    background-image: url(https://api.time.com/wp-content/uploads/2017/03/female-cartoon-lead.jpg?quality=85);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+#over1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#over2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#over3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#over4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#over5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+#over6{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#over7{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#over8{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
